@@ -1,0 +1,82 @@
+#Dashboard {
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  background-color: #ffff;
+}
+
+.Container {
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  background-color: #ffff;
+  place-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.PokeCol {
+  margin: 0.5rem;
+}
+
+.PokeCards {
+  color: rgba(10, 10, 10, 0.993);
+  border-radius: 20px;
+  margin: 1rem;
+  padding: 1rem;
+  -webkit-box-shadow: 0px 3px 21px -6px rgba(163, 163, 163, 1);
+  -moz-box-shadow: 0px 3px 21px -6px rgba(163, 163, 163, 1);
+  box-shadow: 0px 3px 21px -6px rgba(163, 163, 163, 1);
+}
+
+.PokeCards:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.CardImg {
+  width: 100%;
+}
+
+.CardButton {
+  margin-top: -100px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.CardWeight {
+  background-color: #3a33ff;
+  width: 110px;
+  padding: 0.3rem 0.4rem;
+  text-align: center;
+  border-radius: 15px;
+  font-weight: bold;
+  color: #ffff;
+}
+
+.CardTitle {
+  font-weight: bolder;
+  margin-top: 1.5rem;
+  color: #df1235;
+}
+
+.Pagination :active {
+  color: #fff;
+  background-color: #df1235;
+}
+
+.Pagination::after {
+  color: #fff;
+  background-color: #df1235;
+}
+
+.Pagination .page-link.active {
+  background-color: white;
+  color: #df1235;
+  border-color: #df1235;
+}
+
+.Pagination .page-link:focus {
+  color: #df1235;
+  border-color: #df1235;
+}

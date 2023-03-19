@@ -1,0 +1,16 @@
+#Header {
+  background-color: #df1235;
+  color: #fff;
+}
+
+.NavItem {
+  color: #fff;
+}
+
+.NavItem:hover {
+  color: #fff;
+}
+
+#NavDropdown {
+  color: #fff;
+}
